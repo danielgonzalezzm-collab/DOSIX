@@ -120,7 +120,18 @@ p{
     transition:all .3s ease;
     box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
+.galeria-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-top:20px;
+}
 
+.galeria-grid img{
+    width:100%;
+    border-radius:15px;
+    display:block;
+}
 .card:hover{
     transform:translateY(-5px);
     border-color:#D9A414;
