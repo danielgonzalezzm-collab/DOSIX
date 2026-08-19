@@ -1,372 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOSIX | Sitio Oficial</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background:#050505;
+            color:white;
+            font-family:Arial, sans-serif;
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
 
-<title>DOSIX | Sitio Oficial</title>
+        header{
+            padding:100px 20px;
+        }
 
-<style>
+        h1{
+            font-size:70px;
+            color:#D9A414;
+            margin-bottom:10px;
+        }
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+        h2{
+            margin-bottom:20px;
+        }
 
-html{
-scroll-behavior:smooth;
-}
+        a{
+            display:inline-block;
+            margin:10px;
+            padding:12px 24px;
+            background:#D9A414;
+            color:black;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:bold;
+        }
 
-body{
-background:#050505;
-color:white;
-font-family:Arial, Helvetica, sans-serif;
-}
+        section{
+            padding:60px 20px;
+            max-width:1000px;
+            margin:auto;
+        }
 
-nav{
-position:fixed;
-top:0;
-width:100%;
-padding:20px 40px;
-background:rgba(0,0,0,.9);
-display:flex;
-justify-content:space-between;
-align-items:center;
-z-index:1000;
-}
+        .card{
+            background:#161616;
+            margin:15px 0;
+            padding:20px;
+            border-radius:12px;
+        }
 
-.logo{
-font-size:28px;
-font-weight:bold;
-letter-spacing:4px;
-color:#D9A414;
-}
-
-.menu a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-size:14px;
-}
-
-.hero{
-height:100vh;
-background:url("FB_IMG_1778609921189.jpg");
-background-size:cover;
-background-position:center;
-}
-
-.overlay{
-height:100%;
-background:rgba(0,0,0,.65);
-
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
-.overlay h1{
-font-size:90px;
-letter-spacing:10px;
-}
-
-.overlay h2{
-margin:20px 0;
-font-weight:300;
-color:#D9A414;
-}
-
-.overlay p{
-max-width:700px;
-line-height:1.7;
-}
-
-.botones{
-margin-top:40px;
-}
-
-.botones a{
-display:inline-block;
-padding:15px 30px;
-background:#D9A414;
-color:black;
-text-decoration:none;
-font-weight:bold;
-border-radius:10px;
-margin:10px;
-}
-
-section{
-padding:100px 10%;
-}
-
-h3{
-font-size:35px;
-margin-bottom:25px;
-color:#D9A414;
-}
-
-.historia{
-max-width:900px;
-margin:auto;
-line-height:1.8;
-font-size:18px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:#161616;
-padding:30px;
-border-radius:20px;
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-}
-
-.galeria{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-}
-
-.galeria img{
-width:100%;
-height:350px;
-object-fit:cover;
-border-radius:20px;
-}
-
-.contacto{
-text-align:center;
-font-size:18px;
-line-height:2;
-}
-
-footer{
-background:#111;
-padding:40px;
-text-align:center;
-margin-top:80px;
-}
-
-@media(max-width:768px){
-
-nav{
-flex-direction:column;
-gap:10px;
-}
-
-.overlay h1{
-font-size:55px;
-}
-
-.menu{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-}
-
-}
-
-</style>
+        footer{
+            padding:40px;
+            background:#111;
+            margin-top:40px;
+        }
+    </style>
 
 </head>
-
 <body>
 
-<nav>
+<header>
+    <h1>DOSIX</h1>
 
-<div class="logo">
-DOSIX
-</div>
+    <h2>Cartas. Poemas. Hip Hop.</h2>
 
-<div class="menu">
-#inicioInicio</a>
-#historiaHistoria</a>
-#musicaMúsica</a>
-">Galería</a>
-#eventosEventos</a>
-ch">Merch</a>
-contacto">Contacto</a>
-</div>
+    <p>
+        No todas las cartas encuentran un destinatario.
+        Algunas terminan convirtiéndose en canciones.
+    </p>
 
-</nav>
+    ://open.spotify.com/intl-es/artist/6RLNLCgRxTgc9jtk3Nsqen" target="_blank">
+        Spotify
+    </a>
 
-<section class="hero" id="inicio">
+    ://www.youtube.com/@DOSIX_Raps" target="_blank">
+        YouTube
+    </a>
+</header>
 
-<div class="overlay">
+<section>
 
-<h1>DOSIX</h1>
+    <h2>¿Quién es DOSIX?</h2>
 
-<h2>Cartas. Poemas. Hip Hop.</h2>
-
-<p>
-No todas las cartas encuentran un destinatario.
-Algunas terminan convirtiéndose en canciones.
-</p>
-
-<div class="botones">
-
-<a href="https://open.spotify.com/intl-es/artist/6RLNLCgRxTgc9jtk3Nsqen" target="_blank">
-Spotify
-</a>
-
-<a href="https://www.youtube.com/@DOSIX_Raps" target="_blank">
-YouTube
-</a>
-
-</div>
-
-</div>
+    <p>
+        DOSIX es un proyecto artístico construido desde la escritura.
+        Cartas, poemas y pensamientos personales encuentran su forma final
+        a través de la música.
+    </p>
 
 </section>
 
-<section id="historia">
+<section>
 
-<h3>La Historia</h3>
+    <h2>Discografía</h2>
 
-<div class="historia">
-
-<p>
-DOSIX es un proyecto artístico construido desde la escritura.
-Cartas, poemas y pensamientos personales encuentran su forma final a través de la música.
-Cada canción funciona como una página arrancada de un cuaderno.
-Cada verso es una conversación pendiente.
-</p>
-
-</div>
+    <div class="card">Partidario de lo Efímero</div>
+    <div class="card">Metamorphosix</div>
+    <div class="card">Piénsame</div>
+    <div class="card">Harakiri</div>
+    <div class="card">Bellicus</div>
+    <div class="card">Ambición</div>
+    <div class="card">Un Amor Inesperado</div>
 
 </section>
 
-<section id="musica">
+<section>
 
-<h3>Música</h3>
+    <h2>Merch</h2>
 
-<div class="grid">
-
-<div class="card">Partidario de lo Efímero</div>
-
-<div class="card">Metamorphosix</div>
-
-<div class="card">Piénsame</div>
-
-<div class="card">Harakiri</div>
-
-<div class="card">Bellicus</div>
-
-<div class="card">Ambición</div>
-
-<div class="card">Un Amor Inesperado</div>
-
-</div>
+    <div class="card">Camisetas (Próximamente)</div>
+    <div class="card">Hoodies (Próximamente)</div>
+    <div class="card">Posters (Próximamente)</div>
+    <div class="card">Poemarios (Próximamente)</div>
 
 </section>
 
-<section id="galeria">
+<section>
 
-<h3>Galería</h3>
+    <h2>Contrataciones</h2>
 
-<div class="galeria">
+    <p>Daniel Andrés González Moreno</p>
 
-">
+    <p>3028421428</p>
 
-IMG_8586.JPG
-
-IMG_8587.JPG
-
-IMG_9223.JPG
-
-IMG_9233.JPG
-
-IMG_9236.JPG">
-
-</div>
-
-</section>
-
-<section id="eventos">
-
-<h3>Eventos</h3>
-
-<div class="grid">
-
-<div class="card">Soye Fest</div>
-
-<div class="card">Semana de la Juventud</div>
-
-<div class="card">El Enemigo del Tiempo</div>
-
-<div class="card">Giras por Colegios</div>
-
-</div>
-
-</section>
-
-<section id="merch">
-
-<h3>Tienda Oficial</h3>
-
-<div class="grid">
-
-<div class="card">Hoodies</div>
-
-<div class="card">Camisetas</div>
-
-<div class="card">Posters</div>
-
-<div class="card">Poemarios</div>
-
-<div class="card">Ediciones Limitadas</div>
-
-<div class="card">Álbum Digital</div>
-
-</div>
-
-</section>
-
-<section id="contacto">
-
-<h3>Contrataciones</h3>
-
-<div class="contacto">
-
-<p>Daniel Andrés González Moreno</p>
-
-<p>3028421428</p>
-
-<p>danielgonzalezzm@gmail.com</p>
-
-<p>
-Instagram: @dosix_raps
-</p>
-
-<p>
-TikTok: @dosixraps
-</p>
-
-</div>
+    <p>danielgonzalezzm@gmail.com</p>
 
 </section>
 
 <footer>
-
-DOSIX © 2026
-
+    DOSIX © 2026
 </footer>
 
 </body>
-
 </html>
